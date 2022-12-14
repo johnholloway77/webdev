@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-image: url('background.jpg');
+    background-size: 100vw;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 8px #11a55b, 0 0 24px #4578D5;
+    font-size: 1.25vw;
+    font-weight: 600;
+    color:antiquewhite
+}
+
+h1{
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+.main{
+    width: 80vw;
+    margin: auto;
+}
+
+.answers{
+    color: black;
+    font-size: 1vw;
+    margin: auto;
+    display: flex;
+    text-shadow: 0 0 8px #5b467c, 0 0 24px #4578D5;
+}
+
+
+
+input[type=button] {
+    border-radius: 10px;
+    font-size: 1.25vw;
+}
+
+input[type=button]:hover {
+    border-radius: 10px;
+    font-size: 1.25vw;
+    box-shadow:  0 0 8px #11a55b, 0 0 24px #4578D5;
+}
+
+.question{
+    width: fit-content;
+    padding: 0.75vh;
+    border-radius: 10px;
+    
+    border: 1px solid grey;
+    background-color: azure;
+    margin-left: 1vw;
+    
+}
+
+.question:hover{
+    width: fit-content;
+    padding: 0.75vh;
+    border-radius: 10px;
+    
+    border: 1px solid grey;
+    background-color: azure;
+    margin-left: 1vw;
+    box-shadow:  0 0 8px #3f7dda, 0 0 24px #4578D5;
+}
+
+.questionText{
+    font-family: noto;
+    margin-bottom: 1.5vh;
+}
+
+.question:hover{
+    cursor: pointer;
+}
